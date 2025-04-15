@@ -94,8 +94,7 @@ Futurotel-Studios-Landing/
 
 ## 💬 Soporte
 ¿Tienes dudas, sugerencias o necesitas soporte?
-- Email: contacto@futurotelstudios.com
-- [LinkedIn Futurotel Studios](https://www.linkedin.com/company/futurotelstudios)
+- Email: [contacto@futurotelstudios.com](https://www.futurotelgroup.com/)
 
 ---
 
@@ -115,7 +114,6 @@ Futurotel-Studios-Landing/
 > "La innovación no es solo tecnología, es creatividad, pasión y visión compartida. Gracias por ser parte de la evolución Futurotel Studios."
 
 - ¿Quieres colaborar, proponer mejoras o inspirar nuevas funcionalidades? ¡Contáctanos y forma parte de nuestra comunidad global!
-- [LinkedIn Futurotel Studios](https://www.linkedin.com/company/futurotelstudios) · contacto@futurotelstudios.com
 
 ---
 
