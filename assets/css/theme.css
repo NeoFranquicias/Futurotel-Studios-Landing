@@ -6927,6 +6927,7 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 .tt-ppli-info {
 	display: -webkit-box;
 	-webkit-line-clamp: 3;
+	line-clamp: 3;
 	-webkit-box-orient: vertical;  
 	overflow: hidden;
 	font-size: 90%;
@@ -8862,6 +8863,7 @@ a.tt-shs-item-inner {
 	/*	line-clamp */
 	display: -webkit-box;
 	-webkit-line-clamp: 3; /* max lines to show */
+	line-clamp: 3;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
