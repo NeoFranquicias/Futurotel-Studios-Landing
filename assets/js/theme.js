@@ -92,7 +92,7 @@
 		let $tt_ptrOverlayBottom = $(".tt-ptr-overlay-bottom");
 		let $tt_ptrContentWrap = $("#tt-content-wrap");
 
-		let $tt_ptrDuration = 0.7; // Animation duration
+		let $tt_ptrDuration = 0.48; // Animation duration
 
 
 		// Wrap words and elements inside the text
