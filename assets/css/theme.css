@@ -9495,6 +9495,13 @@ body.is-mobile .tt-avlist-item:focus {
 	font-weight: 300;
 	opacity: .6;
 }
+
+.tt-footer-createdby {
+	margin-top: 50px;
+	font-size: 14px;
+	font-weight: 300;
+	opacity: .6;
+}
 .tt-footer-widget-list .tt-footer-copyright a {
 	font-size: 14px;
 }
