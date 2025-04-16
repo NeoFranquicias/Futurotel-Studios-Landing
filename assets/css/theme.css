@@ -5289,7 +5289,7 @@ body:not(.is-mobile) .tt-accordion.tt-ac-hover .tt-accordion-item.active .tt-acc
 		opacity: .8;
 
 		display: -webkit-box;
-		-webkit-line-clamp: 4; /* How many lines of text to display */
+		-webkit-line-clamp: 5; /* How many lines of text to display */
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 	}
