@@ -5,8 +5,8 @@
 // Change values below:
 // =====================
 
-$project_name = "Futurotel Studios"; // Change value to your site name.
-$admin_email  = "a.aranda@etik.com"; // Change value to your valid email address (where a message will be sent).
+$project_name = "www.futurotelstudios.es"; // Change value to your site name.
+$admin_email  = "email@email.com"; // Change value to your valid email address (where a message will be sent).
 $form_subject = "Mensaje desde Futurotel Studios"; // Change value to your own message subject.
 
 
