@@ -1,10 +1,5 @@
 /* =================================================================
 * Template JS
-* 
-* Template:    Jesper - Creative Portfolio Showcase HTML Website Template
-* Author:      Themetorium
-* URL:         https://themetorium.net/
-*
 ==================================================================== */
 
 
