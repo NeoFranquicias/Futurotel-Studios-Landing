@@ -6,7 +6,7 @@
 // =====================
 
 $project_name = "www.futurotelstudios.es"; // Change value to your site name.
-$admin_email  = "info@futurotelstudios.es"; // Change value to your valid email address (where a message will be sent).
+$admin_email  = "info@futurotelstudios.com"; // Change value to your valid email address (where a message will be sent).
 $form_subject = "Mensaje desde Futurotel Studios"; // Change value to your own message subject.
 
 
