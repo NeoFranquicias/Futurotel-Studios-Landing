@@ -69,9 +69,9 @@ if ($method === 'POST') {
 
     // Send email
     if (mail($admin_email, $encoded_subject, $message, $headers)) {
-        echo json_encode(["success" => true, "message" => "Thank you! Email sent successfully."]);
+        echo json_encode(["success" => true, "message" => "Gracias! Mensaje enviado correctamente."]);
     } else {
-        echo json_encode(["success" => false, "message" => "Sorry, email could not be sent."]);
+        echo json_encode(["success" => false, "message" => "Ha habido un error al envíar el mensaje, por favor inténtelo de nuevo más tarde."]);
     }
     exit();
 }
