@@ -1,0 +1,64 @@
+/* Estilos para los nombres en el slider */
+.pgi-caption {
+  position: relative;
+  z-index: 2;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
+}
+
+.pgi-caption-title {
+  color: #fff;
+  font-size: clamp(16px, 2vw, 24px);
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Estilos para los puntos del slider */
+.tt-posl-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.tt-posl-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tt-posl-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+  transform: scale(1.2);
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .pgi-caption {
+    padding: 10px;
+  }
+  
+  .pgi-caption-title {
+    font-size: clamp(14px, 4vw, 18px);
+  }
+  
+  .tt-posl-pagination {
+    bottom: 10px;
+  }
+  
+  .tt-posl-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+} 
