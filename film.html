@@ -409,21 +409,68 @@
 					-->
 				<div class="tt-section">
 					<div class="tt-section-inner max-width-2200">
+
+						<!-- Begin portfolio grid (works combined with tt-Ggrid!)
+							========================== 
+							* Use class "pgi-hover" to enable portfolio grid item hover effect (behavior depends on "ttgr-gap-*" classes below!).
+							* Use class "pgi-cap-hover" to enable portfolio grid item caption hover effect (effect only with class "pgi-cap-inside"! Also no effect on mobile devices!).
+							* Use class "pgi-cap-center" to position portfolio grid item caption to center.
+							* Use class "pgi-cap-inside" to position portfolio grid item caption to inside.
+							-->
 						<div id="portfolio-grid" class="pgi-hover">
+
+							<!-- Begin tt-Grid
+								=================== 
+								* Use class "ttgr-layout-2", "ttgr-layout-3", "ttgr-layout-4" to set grid layout (columns). No class = one column.
+								* Use class "ttgr-layout-1-2", "ttgr-layout-2-1", "ttgr-layout-2-3", "ttgr-layout-3-2", "ttgr-layout-3-4" or "ttgr-layout-4-3" to set grid mixed layout (columns).
+								* Use class "ttgr-layout-creative-1" or "ttgr-layout-creative-2" to set grid creative mixed layout (no effect with classes "ttgr-portrait", "ttgr-portrait-half", "ttgr-not-cropped" and "ttgr-shifted").
+								* Use class "ttgr-portrait" or "ttgr-portrait-half" to enable portrait mode (no effect with classes "ttgr-layout-creative-1", "ttgr-layout-creative-2" and "ttgr-not-cropped").
+								* Use class "ttgr-gap-1", "ttgr-gap-2", "ttgr-gap-3", "ttgr-gap-4", "ttgr-gap-5" or "ttgr-gap-6" to add space between items.
+								* Use class "ttgr-not-cropped" to enable not cropped mode (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
+								* Use class "ttgr-shifted" to enable shifted layout (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
+								-->
 							<div class="tt-grid ttgr-layout-3 ttgr-gap-3">
+
+								<!-- Begin tt-Ggrid top content 
+									================================ -->
 								<div class="tt-grid-top">
+
+									<!-- Begin tt-Ggrid categories/filter classic
+										============================================== -->
 									<div class="tt-grid-categories-classic">
+
+										<!-- Begin tt-Ggrid categories
+											===============================
+											* Use class "ttgr-cat-classic-center" or "ttgr-cat-classic-right" to align categories (no effect on small screens!). No claa = align left.
+											* Use class "ttgr-cat-classic-colored" to enable colored style.
+											-->
 										<div class="ttgr-cat-classic-nav ttgr-cat-classic-center">
 											<ul class="ttgr-cat-classic-list">
-												<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" class="active">Todos</a></li>
-												<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".colaboraciones">Colaboraciones</a></li>
-												<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".Sello Cinematográfico">Sello Cinematográfico</a></li>
-												<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".Co-Producciones">Co-Producciones</a></li>
+												<li class="ttgr-cat-classic-item"><a href="#portfolio-grid"
+														data-offset="80" class="active">Todos</a></li>
+												<li class="ttgr-cat-classic-item"><a href="#portfolio-grid"
+														data-offset="80" data-filter=".colaboraciones">Colaboraciones</a></li>
+												<li class="ttgr-cat-classic-item"><a href="#portfolio-grid"
+														data-offset="80" data-filter=".Sello Cinematográfico">Sello Cinematográfico</a></li>
+												<li class="ttgr-cat-classic-item"><a href="#portfolio-grid"
+														data-offset="80" data-filter=".Co-Producciones">Co-Producciones</a></li>
 											</ul>
 										</div>
+										<!-- End tt-Ggrid categories-->
+
 									</div>
+									<!-- End tt-Ggrid categories/filter classic -->
+
 								</div>
+								<!-- End tt-Ggrid top content -->
+
+
+								<!-- Begin tt-Grid items wrap 
+									============================== -->
 								<div class="tt-grid-items-wrap isotope-items-wrap">
+
+									<!-- Begin tt-Grid item
+										======================== -->
 									<div class="tt-grid-item isotope-item">
 										<div class="ttgr-item-inner">
 											<div class="portfolio-grid-item">
@@ -436,14 +483,13 @@
 														</div>
 													</div>
 												</a>
-												<div class="pgi-caption">
-													<div class="pgi-caption-inner">
-														<h3 class="pgi-caption-title" style="font-size: clamp(16px, 2vw, 24px); margin: 15px 0; text-align: center;">El Olvido</h3>
-													</div>
-												</div>
 											</div>
 										</div>
 									</div>
+									<!-- End tt-Grid item -->
+
+									<!-- Begin tt-Grid item
+										======================== -->
 									<div class="tt-grid-item isotope-item">
 										<div class="ttgr-item-inner">
 											<div class="portfolio-grid-item">
@@ -456,14 +502,13 @@
 														</div>
 													</div>
 												</a>
-												<div class="pgi-caption">
-													<div class="pgi-caption-inner">
-														<h3 class="pgi-caption-title" style="font-size: clamp(16px, 2vw, 24px); margin: 15px 0; text-align: center;">La Hora</h3>
-													</div>
-												</div>
 											</div>
 										</div>
 									</div>
+									<!-- End tt-Grid item -->
+
+									<!-- Begin tt-Grid item
+										======================== -->
 									<div class="tt-grid-item isotope-item">
 										<div class="ttgr-item-inner">
 											<div class="portfolio-grid-item">
@@ -476,14 +521,13 @@
 														</div>
 													</div>
 												</a>
-												<div class="pgi-caption">
-													<div class="pgi-caption-inner">
-														<h3 class="pgi-caption-title" style="font-size: clamp(16px, 2vw, 24px); margin: 15px 0; text-align: center;">Suite</h3>
-													</div>
-												</div>
 											</div>
 										</div>
 									</div>
+									<!-- End tt-Grid item -->
+
+									<!-- Begin tt-Grid item
+										======================== -->
 									<div class="tt-grid-item isotope-item">
 										<div class="ttgr-item-inner">
 											<div class="portfolio-grid-item">
@@ -496,14 +540,13 @@
 														</div>
 													</div>
 												</a>
-												<div class="pgi-caption">
-													<div class="pgi-caption-inner">
-														<h3 class="pgi-caption-title" style="font-size: clamp(16px, 2vw, 24px); margin: 15px 0; text-align: center;">Luger</h3>
-													</div>
-												</div>
 											</div>
 										</div>
 									</div>
+									<!-- End tt-Grid item -->
+
+									<!-- Begin tt-Grid item
+										======================== -->
 									<div class="tt-grid-item isotope-item">
 										<div class="ttgr-item-inner">
 											<div class="portfolio-grid-item">
@@ -516,14 +559,13 @@
 														</div>
 													</div>
 												</a>
-												<div class="pgi-caption">
-													<div class="pgi-caption-inner">
-														<h3 class="pgi-caption-title" style="font-size: clamp(16px, 2vw, 24px); margin: 15px 0; text-align: center;">Oeste</h3>
-													</div>
-												</div>
 											</div>
 										</div>
 									</div>
+									<!-- End tt-Grid item -->
+
+									<!-- Begin tt-Grid item
+										======================== -->
 									<div class="tt-grid-item isotope-item">
 										<div class="ttgr-item-inner">
 											<div class="portfolio-grid-item">
@@ -536,18 +578,53 @@
 														</div>
 													</div>
 												</a>
-												<div class="pgi-caption">
-													<div class="pgi-caption-inner">
-														<h3 class="pgi-caption-title" style="font-size: clamp(16px, 2vw, 24px); margin: 15px 0; text-align: center;">FIS</h3>
-													</div>
-												</div>
 											</div>
 										</div>
 									</div>
+									<!-- End tt-Grid item -->
+
 								</div>
-							</div>
+
+								<div class="tt-section">
+									<div class="tt-wrap">
+										<div class="tt-logo-row"  style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 40px;">
+											<a href="https://www.netflix.com" class="tt-magnetic-item" target="_blank" rel="noopener">
+											  <img src="assets/img/icon-netflix.svg" loading="lazy" alt="Netflix Logo" style="height: 40px; object-fit: contain;">
+											</a>
+					
+											<a href="https://www.primevideo.com" class="tt-magnetic-item" target="_blank" rel="noopener">
+											  <img src="assets/img/icon-amazon-prime-video.svg" loading="lazy" alt="Prime Video Logo" style="height: 40px; object-fit: contain;">
+											</a>
+					
+											<a href="https://www.atresmedia.com" class="tt-magnetic-item" target="_blank" rel="noopener">
+											  <img src="assets/img/icon-atresmedia.svg" loading="lazy" alt="Atresmedia Logo" style="height: 40px; object-fit: contain;">
+											</a>
+					
+											<a href="https://www.mediaset.es" class="tt-magnetic-item" target="_blank" rel="noopener">
+											  <img src="assets/img/icon-mediaset.svg" loading="lazy" alt="Mediaset Logo" style="height: 20px; object-fit: contain;">
+											</a>
+					
+											<a href="https://www.yelmocines.es" class="tt-magnetic-item" target="_blank" rel="noopener">
+											  <img src="assets/img/icon-cine-yelmo.svg" loading="lazy" alt="Cines Yelmo Logo" style="height: 20px; object-fit: contain;">
+											</a>
+					
+											<a href="https://www.abc.com" class="tt-magnetic-item" target="_blank" rel="noopener">
+											  <img src="assets/img/icon-abc.webp" loading="lazy" alt="ABC Logo" style="height: 30px; object-fit: contain;">
+											</a>
+					
+											<a href="https://www.cinesa.es" class="tt-magnetic-item" target="_blank" rel="noopener">
+											  <img src="assets/img/icon-cinesa.svg" loading="lazy" alt="Cinesa Logo" style="height: 40px; object-fit: contain;">
+											</a>
+					
+										</div>
+									</div>
+								</div>
+								<!-- End tt-Grid items wrap  -->
+
 						</div>
-					</div>
+						<!-- End portfolio grid -->
+
+					</div> <!-- /.tt-section-inner -->
 				</div>
 				<!-- End tt-section -->
 
