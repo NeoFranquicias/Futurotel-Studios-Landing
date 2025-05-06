@@ -45,6 +45,72 @@
     <link rel="stylesheet" href="assets/css/helper.css">
     <link rel="stylesheet" href="assets/css/theme.css">
     <link rel="stylesheet" href="assets/css/theme-light.css">
+
+    <style>
+    /* Formato tipo 'beneficio' para los cursos (igual que TV) */
+    .tt-course-feature-card {
+      padding: 40px;
+      background: rgba(0,0,0,0.02);
+      border-radius: 20px;
+      transition: transform 0.3s ease;
+      min-height: 420px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 30px;
+    }
+    .tt-course-feature-icon {
+      font-size: 2.5rem;
+      color: var(--tt-main-color, #e94d1a);
+      margin-bottom: 25px;
+    }
+    .tt-course-feature-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .tt-course-feature-meta {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 10px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+    .tt-course-feature-description {
+      line-height: 1.6;
+      color: #222;
+      margin-bottom: 12px;
+    }
+    .tt-course-feature-list {
+      margin: 0 0 18px 0;
+      padding-left: 18px;
+      color: #222;
+    }
+    .tt-btn-primary.tt-btn-sm {
+      background: #e94d1a;
+      color: #fff;
+      border-radius: 24px;
+      padding: 10px 28px;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-top: 10px;
+      transition: background 0.2s;
+    }
+    .tt-btn-primary.tt-btn-sm:hover {
+      background: #b93a13;
+      color: #fff;
+    }
+    @media (max-width: 991px) {
+      .tt-course-feature-card {
+        min-height: 0;
+        padding: 24px 10px;
+      }
+      .tt-course-feature-title {
+        font-size: 1.1rem;
+      }
+    }
+    </style>
 </head>
 
 <body id="body" class="tt-transition tt-noise tt-magic-cursor tt-smooth-scroll tt-lightmode-default">
@@ -211,16 +277,16 @@
 
             <!-- Page content -->
             <div id="tt-page-content">
-                <!-- Sección de Programas -->
+                <!-- Hero Section -->
                 <div class="tt-section padding-top-xlg-140 padding-bottom-xlg-120">
                     <div class="tt-section-inner tt-wrap">
                         <div class="tt-row">
                             <div class="tt-col-lg-4">
                                 <div class="tt-heading tt-heading-xlg">
-                                    <h2 class="tt-heading-title tt-text-reveal">NUESTROS PROGRAMAS</h2>
+                                    <h2 class="tt-heading-title tt-text-reveal">ESCUELA DE CINE</h2>
                                 </div>
                                 <div class="tt-text-uppercase margin-top-30 tt-text-reveal">
-                                    FORMACIÓN ESPECIALIZADA
+                                    FORMACIÓN CINEMATOGRÁFICA
                                 </div>
                             </div>
 
@@ -229,11 +295,11 @@
 
                             <div class="tt-col-lg-7 tt-align-self-center">
                                 <div class="text-xlg font-500 tt-text-reveal">
-                                    En Futurotel Academy ofrecemos programas de formación especializados en producción audiovisual, radio y entretenimiento. Nuestros cursos están diseñados para proporcionar una experiencia práctica y real en la industria.
+                                    En Futurotel Academy formamos a la próxima generación de cineastas. Nuestros programas combinan teoría y práctica, ofreciendo una experiencia inmersiva en el mundo del cine con equipamiento profesional y mentores de la industria.
                                 </div>
 
                                 <a href="contact.html" class="tt-btn tt-btn-outline margin-top-40 tt-magnetic-item tt-anim-fadeinup">
-                                    <span data-hover="Más información">Más información</span>
+                                    <span data-hover="Solicitar Información">Solicitar Información</span>
                                 </a>
                             </div>
                         </div>
@@ -246,10 +312,10 @@
                         <div class="tt-row">
                             <div class="tt-col-xl-8">
                                 <div class="tt-heading tt-heading-xxxlg">
-                                    <h2 class="tt-heading-title tt-text-reveal">EXPLORA NUESTROS CURSOS</h2>
+                                    <h2 class="tt-heading-title tt-text-reveal">PROGRAMAS DE FORMACIÓN</h2>
                                 </div>
                                 <div class="tt-text-uppercase max-width-400 margin-left-xlg-10-p text-pretty tt-text-reveal">
-                                    Formación práctica y especializada en diferentes áreas del entretenimiento
+                                    Descubre nuestros programas especializados en cinematografía
                                 </div>
                             </div>
                         </div>
@@ -259,13 +325,124 @@
                 <!-- Grid de Cursos -->
                 <div class="tt-section">
                     <div class="tt-section-inner max-width-2200">
-                        <div id="portfolio-grid" class="pgi-hover">
-                            <div class="tt-grid ttgr-layout-3 ttgr-gap-3">
-                                <!-- Aquí puedes añadir los cursos como items del grid -->
+                        <div class="tt-heading text-center margin-bottom-60">
+                            <h2 class="tt-heading-title" style="font-size: clamp(32px, 5vw, 60px);">NUESTROS PROGRAMAS DE CINE</h2>
+                            <div class="tt-heading-description" style="max-width: 800px; margin: 0 auto;">
+                                Descubre nuestros cursos especializados y da el siguiente paso en tu formación cinematográfica.
+                            </div>
+                        </div>
+                        <div class="tt-row" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+                            <!-- Dirección Cinematográfica -->
+                            <div class="tt-col-lg-4" style="flex: 1 1 calc(33.333% - 30px); min-width: 300px;">
+                                <div class="tt-course-feature-card">
+                                    <div class="tt-course-feature-icon"><i class="fa-solid fa-video"></i></div>
+                                    <div class="tt-course-feature-title">Dirección Cinematográfica</div>
+                                    <div class="tt-course-feature-meta">
+                                        <span><i class="fas fa-clock"></i> 6 meses</span>
+                                        <span><i class="fas fa-signal"></i> Avanzado</span>
+                                        <span><i class="fas fa-tag"></i> $1,200</span>
+                                    </div>
+                                    <div class="tt-course-feature-description">
+                                        Aprende a liderar proyectos cinematográficos desde la concepción hasta la pantalla.
+                                    </div>
+                                    <ul class="tt-course-feature-list">
+                                        <li>Narrativa y guion cinematográfico</li>
+                                        <li>Dirección de actores</li>
+                                        <li>Planificación y storyboard</li>
+                                        <li>Gestión de equipos técnicos</li>
+                                        <li>Dirección de fotografía</li>
+                                    </ul>
+                                    <a href="contact.html" class="tt-btn tt-btn-primary tt-btn-sm">
+                                        <span data-hover="Solicitar Información">Solicitar Información</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Fotografía y Cámara -->
+                            <div class="tt-col-lg-4" style="flex: 1 1 calc(33.333% - 30px); min-width: 300px;">
+                                <div class="tt-course-feature-card">
+                                    <div class="tt-course-feature-icon"><i class="fa-solid fa-camera"></i></div>
+                                    <div class="tt-course-feature-title">Fotografía y Cámara</div>
+                                    <div class="tt-course-feature-meta">
+                                        <span><i class="fas fa-clock"></i> 4 meses</span>
+                                        <span><i class="fas fa-signal"></i> Intermedio</span>
+                                        <span><i class="fas fa-tag"></i> $950</span>
+                                    </div>
+                                    <div class="tt-course-feature-description">
+                                        Domina la iluminación, composición y manejo de equipos profesionales de cámara.
+                                    </div>
+                                    <ul class="tt-course-feature-list">
+                                        <li>Composición y encuadre</li>
+                                        <li>Iluminación cinematográfica</li>
+                                        <li>Manejo de cámaras profesionales</li>
+                                        <li>Técnicas de movimiento de cámara</li>
+                                        <li>Colorimetría y exposición</li>
+                                    </ul>
+                                    <a href="contact.html" class="tt-btn tt-btn-primary tt-btn-sm">
+                                        <span data-hover="Solicitar Información">Solicitar Información</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Edición y Postproducción -->
+                            <div class="tt-col-lg-4" style="flex: 1 1 calc(33.333% - 30px); min-width: 300px;">
+                                <div class="tt-course-feature-card">
+                                    <div class="tt-course-feature-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                                    <div class="tt-course-feature-title">Edición y Postproducción</div>
+                                    <div class="tt-course-feature-meta">
+                                        <span><i class="fas fa-clock"></i> 3 meses</span>
+                                        <span><i class="fas fa-signal"></i> Principiante</span>
+                                        <span><i class="fas fa-tag"></i> $750</span>
+                                    </div>
+                                    <div class="tt-course-feature-description">
+                                        Técnicas profesionales de edición, efectos visuales y corrección de color con software líder.
+                                    </div>
+                                    <ul class="tt-course-feature-list">
+                                        <li>Montaje y ritmo narrativo</li>
+                                        <li>Corrección de color</li>
+                                        <li>Efectos visuales básicos</li>
+                                        <li>Diseño de sonido</li>
+                                        <li>Exportación y formatos</li>
+                                    </ul>
+                                    <a href="contact.html" class="tt-btn tt-btn-primary tt-btn-sm">
+                                        <span data-hover="Solicitar Información">Solicitar Información</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Sección de Instalaciones -->
+                <div class="tt-section padding-top-xlg-140 padding-bottom-xlg-120">
+                    <div class="tt-section-inner tt-wrap">
+                        <div class="tt-row">
+                            <div class="tt-col-lg-6">
+                                <div class="tt-heading tt-heading-xlg">
+                                    <h2 class="tt-heading-title tt-text-reveal">INSTALACIONES PROFESIONALES</h2>
+                                </div>
+                                <div class="tt-text-uppercase margin-top-30 tt-text-reveal">
+                                    APRENDE EN UN ENTORNO REAL
+                                </div>
+                                <div class="text-xlg font-500 margin-top-30 tt-text-reveal">
+                                    Nuestras instalaciones incluyen:
+                                </div>
+                                <ul class="tt-list tt-list-bullet margin-top-30">
+                                    <li>Platós de rodaje profesionales</li>
+                                    <li>Equipamiento de iluminación de última generación</li>
+                                    <li>Salas de edición con software profesional</li>
+                                    <li>Estudios de sonido</li>
+                                    <li>Equipos de cámara de alta gama</li>
+                                </ul>
+                            </div>
+                            <div class="tt-col-lg-6">
+                                <div class="tt-image-block">
+                                    <img src="assets/img/portfolio/instalaciones-cine.jpg" alt="Instalaciones de la Academia">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
             </div>
 
             <!-- Footer -->
