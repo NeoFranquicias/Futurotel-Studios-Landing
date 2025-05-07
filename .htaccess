@@ -27,3 +27,20 @@ AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 ## Enable compression ##
+
+## Rewrite rules ##
+RewriteEngine On
+
+# Reglas para rutas limpias
+RewriteRule ^$ index.html [L]
+RewriteRule ^about/?$ about.html [L]
+RewriteRule ^film/?$ film.html [L]
+RewriteRule ^air/?$ air.html [L]
+RewriteRule ^contact/?$ contact.html [L]
+RewriteRule ^tv/?$ tv.html [L]
+RewriteRule ^academy/?$ academy.html [L]
+
+# Redirigir todo lo demás a 404.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . 404.html [L]
